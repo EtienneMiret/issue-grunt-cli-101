@@ -1,0 +1,8 @@
+language: node
+
+install:
+  - nvm install 5.9
+  - npm install -g grunt-cli
+
+script:
+  - grunt --gruntfile some/Gruntfile.js
